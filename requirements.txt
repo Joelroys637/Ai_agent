@@ -1,5 +1,5 @@
 streamlit
 asyncio
 websockets
-PyAudio-0.2.14-cp313-cp313-win_amd64.whl
+PyAudio-0.2.14-cp312-cp312-win_amd64.whl
 gtts
