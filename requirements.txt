@@ -1,6 +1,5 @@
 streamlit
 asyncio
-pyaudio
-_portaudio
 websockets
+pyaudio
 gtts
