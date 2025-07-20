@@ -1,5 +1,4 @@
 streamlit
 asyncio
 websockets
-pyaudio
 gtts
