@@ -142,4 +142,4 @@ class GeminiVoiceAssistant:
 # Run app
 if __name__ == "__main__":
     client = GeminiVoiceAssistant()
-    asyncio.run(client.start())
+    asyncio.get_event_loop().run_until_complete(client.start())
