@@ -39,7 +39,7 @@ class GeminiVoiceAssistant:
         self.assistant_name = "jarvis"
         self._audio_queue = asyncio.Queue()
         self._model = "gemini-1.5-flash"
-        self._api_key = "AIzaSyAdAHovI03L4vAPmTCVU5nLC7MCFth-vWk"
+        self._api_key = st.secrets["GEMINI_API_KEY"]
         self._uri = f"wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key={self._api_key}"
 
         # Audio settings
