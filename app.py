@@ -12,7 +12,7 @@ def get_base64_gif(file_path):
         gif_data = f.read()
     return base64.b64encode(gif_data).decode()
 
-gif_base64 = get_base64_gif("D:/webapppython/SPEECH_AI/ai1.gif")
+gif_base64 = get_base64_gif("ai1.gif")
 st.markdown(f"""
     <style>
     .stApp {{
