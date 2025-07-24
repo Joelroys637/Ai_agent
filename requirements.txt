@@ -1,9 +1,8 @@
-streamlit
+PyAudio
 asyncio
 gtts
 pydub
 numpy
-PyAudio
 requests==2.25.1
 streamlit==1.16.0
 streamlit_lottie==0.0.3
