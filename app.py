@@ -7,7 +7,7 @@ import pyaudio
 from websockets.asyncio.client import connect
 
 # Load and embed background gif
-'''def get_base64_gif(file_path):
+def get_base64_gif(file_path):
     with open(file_path, "rb") as f:
         gif_data = f.read()
     return base64.b64encode(gif_data).decode()
@@ -31,7 +31,7 @@ st.markdown(f"""
     }}
     h2 {{ color: #fff; }}
     </style>
-""", unsafe_allow_html=True)'''
+""", unsafe_allow_html=True)
 
 class GeminiVoiceAssistant:
     def __init__(self):
@@ -135,13 +135,11 @@ class GeminiVoiceAssistant:
             }
         }))
         await self._ws.recv(decode=False)
-        st.title("🎙️ Gemini Voice Assistant")
+        st.title("🎙️ Personal Voice Assistant")
         st.subheader(f"Hello {self.user_name}, you can start speaking to {self.assistant_name}.")
         await self._start_audio_streaming()
 
 # Run app
 if __name__ == "__main__":
     client = GeminiVoiceAssistant()
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    loop.run_until_complete(client.start())
+    asyncio.run(client.start())
