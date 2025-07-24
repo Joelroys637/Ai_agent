@@ -2,7 +2,7 @@ streamlit
 asyncio
 pyaudio
 websockets
-PyAudio-0.2.14-cp313-cp313-win_amd64.whl
+PyAudio
 gtts
 pydub
 numpy
