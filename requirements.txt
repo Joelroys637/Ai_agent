@@ -1,4 +1,5 @@
 pyaudio
+altair==4.2.2
 asyncio
 gtts
 pydub
