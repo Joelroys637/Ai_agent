@@ -1,4 +1,4 @@
-PyAudio
+pyaudio
 asyncio
 gtts
 pydub
