@@ -7,12 +7,12 @@ import pyaudio
 from websockets.asyncio.client import connect
 
 # Load and embed background gif
-"""def get_base64_gif(file_path):
+'''def get_base64_gif(file_path):
     with open(file_path, "rb") as f:
         gif_data = f.read()
     return base64.b64encode(gif_data).decode()
 
-gif_base64 = get_base64_gif("D:/webapppython/SPEECH_AI/ai1.gif")"""
+gif_base64 = get_base64_gif("D:/webapppython/SPEECH_AI/ai1.gif")
 st.markdown(f"""
     <style>
     .stApp {{
@@ -31,7 +31,7 @@ st.markdown(f"""
     }}
     h2 {{ color: #fff; }}
     </style>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True)'''
 
 class GeminiVoiceAssistant:
     def __init__(self):
